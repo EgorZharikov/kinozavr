@@ -1,0 +1,68 @@
+body {
+    background-color: #0A0A0A;
+    margin: 0px;
+}
+
+
+p {
+    color: blue;
+}
+
+.header-main {
+    box-shadow: 0 3px 4px rgba(236, 33, 202, 0.384);
+   
+}
+
+.navbar {
+
+    display: flex;
+    flex-grow: 0;
+    flex-shrink: 0;
+    
+}
+.menu {
+    
+   
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.nav-item {
+    font-size: 1.5em;
+    align-items: center;
+    display: flex;
+    flex-grow: 0;
+    flex-shrink: 0;
+    display: block;
+    line-height: 1.5;
+    padding: 1.5rem 0.75rem;
+    position: relative;
+    color: rgb(255, 153, 0);
+}
+
+.title {
+ 
+ 
+    object-position: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.img {
+    
+
+    
+}
+
+.size {
+    
+}
+
+.left {
+    
+}
