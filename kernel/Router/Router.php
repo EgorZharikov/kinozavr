@@ -1,5 +1,5 @@
 <?php
-namespace App\Router;
+namespace App\Kernel\Router;
 
 class Router
 {
@@ -26,9 +26,6 @@ class Router
         } else {
             call_user_func($route->getAction());
         }
-
-        // $route->getAction()();
-        
     }
 
     private function notFound(): void
