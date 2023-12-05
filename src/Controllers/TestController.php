@@ -1,10 +1,13 @@
 <?php
 namespace App\Controllers;
 
-class TestController
+use App\Kernel\View\View;
+use App\Kernel\Controller\Controller;
+
+class TestController extends Controller
 {
     public function index()
     {
-        include_once APP_PATH . '/views/pages/test.php';
+        $this->view('test');
     }
 }
